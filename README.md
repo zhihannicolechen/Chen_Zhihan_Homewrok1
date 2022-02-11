@@ -1,5 +1,4 @@
-# Zhihan Chen - Project 1
-
+# sth music mixer
 TODO: Setting up folders and files properly
 
 ## Installation
