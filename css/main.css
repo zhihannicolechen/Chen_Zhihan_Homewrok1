@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 36px;
+  color: #333;
+  background-color: inherit;
+}
+
+#siteContainer {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+  text-align: center;
+}
+
+.sound {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    background-color: black;
+    color:inherit;
+
+}
+
+.musicPieces-left, .musicPieces-right {
+    margin-top: 40px;
+    display: inline-block;
+    background-color: transparent;
+    color: inherit;
+    overflow: hidden;
+
+}
+
+.musicPieces-right {
+    height: 860px;
+    float: right;
+    width: 200px;
+}
+
+.musicPieces-left {
+    height: 860px;
+    float: left;
+    width: 200px;
+}
+
+.dropzone {
+    height: 500px;
+    margin-left: 20px;
+    width: 560px;
+    float: left;
+    margin-top: 40px;
+    background-color: black;
+    color:inherit;
+}

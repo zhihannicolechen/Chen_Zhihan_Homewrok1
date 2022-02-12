@@ -4,28 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Project 1</title>
+  <title>Drag and Drop Music Mixer</title>
 
   <!-- reset.css must link before the main.css -->
   <link href="css.reset.css" rel="stylesheet" type="text/css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <h1 class="hidden">Our Awesome Music Mixer</h1>
   <!-- content starts -->
   <main>
-    <h1 class="hidden">Homework #1 - Zhihan Chen</h1>
-    <h2 class="main-heading"></h2>
-    <nav>
-      <h2 class="hidden"></h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-
+  <section id="siteContainer">
+    <header>
+      <h2>Music Mixer</h2>
+      <p>Drag and Drop music pieces. Create your own music.</p>
+  </header>
+    <section class="musicPieces-left">
+      <h2 class="hidden">Music Pieces: Left Block</h2>
+      <div class="sound"></div>
+      <div class="sound"></div>
+      <div class="sound"></div>
+      <div class="sound"></div>
+    </section>
+    <section>
+      <h2 class="hidden">Dropzone for Music Pieces</h2>
+      <div class="dropzone"></div>
+    </section>
+    <section class="musicPieces-right">
+      <h2 class="hidden">Music Pieces: Right Block</h2>
+      <div class="sound"></div>
+      <div class="sound"></div>
+      <div class="sound"></div>
+      <div class="sound"></div>
+    </section>
+  </section>
   </main>
 <!-- js file goes before the close body tag -->
 <script src="js/main.js"></script>
