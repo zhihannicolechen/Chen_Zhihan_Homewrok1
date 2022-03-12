@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Avocado Music Mixer</title>
 
-  <!--reset.css must link before the main.css-->
+
+  <!-- reset.css must link before the main.css -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300@family=Rowdies&display=swap" rel="stylesheet">
@@ -17,46 +18,48 @@
   <h1 class="hidden">Avocado Music Mixer</h1>
   <!--content-->
   <main>
+    
     <header class="header">
       <h2>Avocado Music Mixer</h2>
-    </header>
+  </header>
 
-    <section id="siteContainer">
-      <section>
-        <h2 class="hidden">Dropzone for Music Pieces</h2>
-        <div class="musicBoard">
-          <div class="dropzone left"></div>
-          <div class="dropzone"></div>
-          <div class="dropzone"></div>
-          <div class="dropzone"></div>
-          <div class="dropzone right"></div>
-        </div>
-      </section>
+  <section id="siteContainer">
+    <section>
+      <h2 class="hidden">Dropzone for Music Pieces</h2>
+      <div class="musicBoard">
+        <div class="dropzone left"></div>
+        <div class="dropzone"></div>
+        <div class="dropzone"></div>
+        <div class="dropzone"></div>
+        <div class="dropzone right"></div>
+      </div>
+    </section>
 
-      <section class="musicButtons">
-        <div class="buttons">
-          <img src="images/stop.svg" alt="stop">
-        </div>
-        <div class="buttons">
-          <img src="images/play.svg" alt="play">
-        </div>
-        <div class="buttons">
-          <img src="images/delete.svg" alt="delete">
-        </div>
-      </section>
+    <section class="musicButtons">
+      <div class="buttons">
+      <img src="images/stop.svg" alt="stop">
+    </div>
+    <div class="buttons">
+      <img src="images/play.svg" alt="play"></div>
+     <div class="buttons"> <img src="images/delete.svg" alt="delete">
+    </div>
+    </section>
 
-      <section class="musicPieces">
-        <h2 class="hidden">MUsic Pieces</h2>
+    <section class="musicPieces">
+      <h2 class="hidden">Music Pieces</h2>
         <img id="avocado1" draggable="true" class="sound" src="images/avocado_1.svg" alt="avocado">
         <img id="avocado2" draggable="true" class="sound" src="images/avocado_2.svg" alt="avocado">
         <img id="avocado3" draggable="true" class="sound" src="images/avocado_3.svg" alt="avocado">
         <img id="avocado4" draggable="true" class="sound" src="images/avocado_4.svg" alt="avocado">
         <img id="avocado5" draggable="true" class="sound" src="images/avocado_5.svg" alt="avocado">
-        <img id="avocado6" draggable="true" class="sound" src="images/avocado_6fixBlack.png" alt="avocado">
+        <img id="avocado6" draggable="true" class="sound" src="images/avocado_6.svg" alt="avocado">
         <img id="avocado7" draggable="true" class="sound" src="images/avocado_7.svg" alt="avocado">
-        <img id="avocado8" draggable="true" class="sound" src="images/avocado_8fixBlack.png" alt="avocado">
-      </section>
+        <img id="avocado8" draggable="true" class="sound" src="images/avocado_8.svg" alt="avocado">
     </section>
+
+    
+  </section>
+
   </main>
   <!-- js file -->
   <script src="js/main.js"></script>

@@ -16,8 +16,8 @@ h2 {
   font-family: 'Rowdies', cursive;
 }
 
-.header{
-  margin: 0;
+.header {
+  margin:0;
   padding: 0;
   height: 100px;
   background-color: #125C13;
@@ -36,12 +36,13 @@ h2 {
   color: white;
 }
 
+
 .sound {
   width: 150px;
   height: 150px;
   margin: 20px auto;
   display: block;
-  color: inherit;
+  color:inherit;
 }
 
 .musicBoard {
@@ -61,9 +62,27 @@ h2 {
   height: 100%;
 }
 
+
+.musicBoard {
+    height: 300px;
+    width: 900px;
+    margin: 120px auto 20px;
+    background-color: #e8eacd;
+    border: #c5c4ab solid 3px;
+    border-radius: 25px;
+    color:inherit;
+}
+
+.dropzone {
+  border: thin dashed white;
+  float: left;
+  width: 19.77%;
+  height: 100%;
+}
+
 .left {
   border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .right {
@@ -75,6 +94,7 @@ h2 {
   width: 50px;
   height: 50px;
   display: flex;
+
 }
 
 .musicPieces {
