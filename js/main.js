@@ -1,6 +1,7 @@
 (() => {
     let soundPieces = document.querySelectorAll(".musicPieces img"),
-        dropZone = document.querySelectorAll(".dropzone");
+        dropZone = document.querySelectorAll(".dropzone"),
+        audioEl = document.querySelector("audio");
 
     function dragStarted(event) {
         console.log('started dragging a piece');
@@ -20,9 +21,6 @@
 		this.appendChild(document.querySelector(`#${droppedEl}`));
 	}
 
-    function playAudio(event) {
-        let currentTrack = `audio/${this.dataset.trackref}`
-    }
     
     soundPieces.forEach(piece => piece.addEventListener("dragstart", dragStarted));
 
@@ -30,7 +28,7 @@
 
     dropZone.forEach(zone => {
 		zone.addEventListener("dragover", allowDragOver);
-		zone.addEventListener("drop", allowDrop, playAudio);
+		zone.addEventListener("drop", allowDrop);
 	});
 
     //dropZone.addEventListener("dragover", allowDragOver, "drop", allowDrop)
