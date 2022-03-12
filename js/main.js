@@ -13,6 +13,7 @@
         console.log('dragged over me');
     }
 
+
     function allowDrop(event) {
 		event.preventDefault();
 		console.log('dropped on me');
