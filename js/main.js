@@ -13,13 +13,15 @@
         console.log('dragged over me');
     }
 
+
     function allowDrop(event) {
-		event.preventDefault();
-		console.log('dropped on me');
-		let droppedEl = event.dataTransfer.getData('currentItem');
-		console.log(droppedEl);
-		this.appendChild(document.querySelector(`#${droppedEl}`));
-	}
+        event.preventDefault();
+        console.log('dropped on me');
+        let droppedEl = event.dataTransfer.getData('currentItem');
+        console.log(droppedEl);
+        this.appendChild(document.querySelector(`#${droppedEl}`));
+        playSound(droppedEl);
+    }
 
     
     soundPieces.forEach(piece => piece.addEventListener("dragstart", dragStarted));
