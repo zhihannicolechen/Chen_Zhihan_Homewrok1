@@ -1,66 +1,76 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 .hidden {
   display: none;
 }
-
 body {
-  font-family: 'Nunito', sans-serif;;
+  font-family: ‘Nunito’, sans-serif;;
   font-size: 36px;
   color: #333;
-  background-color: #F4A442;
+  background-color: #FFCD1C;
+  margin: 0;
 }
-
 h2 {
-  font-family: 'Rowdies', cursive;
+  font-family: ‘Rowdies’, cursive;
 }
-
+.header {
+  margin:0;
+  padding: 0;
+  height: 100px;
+  background-color: #125C13;
+  display: flex;
+  flex-direction: column;
+}
 #siteContainer {
     margin: 0 auto;
     width: 1000px;
 }
-
-header {
-  text-align: center;
+.header h2 {
+  display: flex;
+  margin: auto;
+  color: white;
 }
-
 .sound {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 20px auto;
     display: block;
-    background-color: black;
     color:inherit;
-
 }
-
-.musicPieces-left, .musicPieces-right {
-    margin-top: 40px;
-    display: inline-block;
-    background-color: transparent;
-    color: inherit;
-    overflow: hidden;
-
+.musicBoard {
+    height: 300px;
+    width: 900px;
+    margin: 120px auto 20px;
+    background-color: #E8EACD;
+    border: #C5C4AB solid 3px;
+    border-radius: 25px;
+    color:inherit;
 }
-
-.musicPieces-right {
-    height: 860px;
-    float: right;
-    width: 200px;
-}
-
-.musicPieces-left {
-    height: 860px;
-    float: left;
-    width: 200px;
-}
-
 .dropzone {
-    height: 500px;
-    margin-left: 20px;
-    width: 560px;
-    float: left;
-    margin-top: 40px;
-    background-color: black;
-    color:inherit;
+  border: thin dashed white;
+  float: left;
+  width: 19.77%;
+  height: 100%;
+}
+.left {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.right {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.buttons {
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+.musicPieces {
+  display: flex;
+}
+.musicButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
 }
