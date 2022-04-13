@@ -25,7 +25,11 @@ h2 {
   flex-direction: column;
 }
 
-#siteContainer {
+#siteContainer
+{
+  display: flex;
+}
+#Container {
     margin: 0 auto;
     width: 1200px;
 }
@@ -80,15 +84,17 @@ h2 {
 }
 
 .rightPanel {
-  height: 400px;
-  display: flex;
-  margin-top: 20px;
+  width: 200px;
+  padding-top: 80px;
+  padding-right: 100px;
+  padding-left: 0;
 }
 
 .leftPanel {
-  height: 400px;
-  display: flex;
-  margin-top: 20px;
+  width: 180px;
+  padding-top: 80px;
+  padding-right: 0;
+  padding-left: 100px;
 }
 
 .dropzone {
