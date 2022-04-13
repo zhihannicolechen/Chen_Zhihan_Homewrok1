@@ -29,7 +29,6 @@
         console.log('runned clickSound1: ' + `audios/${id}.wav`);
         player.src = `audios/${id}.wav`;
         player.play();
-
     }
 
     
@@ -41,6 +40,7 @@
 		zone.addEventListener("dragover", allowDragOver);
 		zone.addEventListener("drop", allowDrop);
 	});
+
 
     //dropZone.addEventListener("dragover", allowDragOver, "drop", allowDrop)
 

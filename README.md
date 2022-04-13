@@ -11,8 +11,11 @@ Clone the project, <code>cd</code> to your directory/download, click the folder 
 
 ## Usage
 
-You can drag an avocado pit onto the plate, and when you place the cursor on the avocado, the transparency of the avocado will change. Depending on the avocado pits used, the music will vary. Create different music by changing the mix or order of avocado pits. Click the gray trash can on the right side of the plate to remove the avocado pits that have been placed in the plate and start editing again.
+You can drag an avocado onto the plate to made up melody, depending on the avocado used, the music will vary. Create different music by changing the mix or order of avocado. Click the gray trash can on the right side of the plate to remove the avocado that have been placed in the plate and start editing again. Click the click button at the right side to play the music.
 
+## Authors
+Designer: Zhihan(Nicole) Chen
+Developer: Alexandra Lem
 
 ### License 
-MIT
+No
