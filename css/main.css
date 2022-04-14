@@ -122,6 +122,8 @@ h2 {
 
 .musicPieces {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border: #125C13 solid 1px;
 }
 
@@ -137,4 +139,61 @@ h2 {
   justify-content: end;
   margin-bottom: 10px;
   margin-right: 200px;
+}
+
+
+@media only screen and (max-width: 1200px)
+{
+  #siteContainer
+  {
+    margin: 0;
+    width: auto;
+  }
+  /* For tablets: */
+  .gameBoards
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .rightPanel {
+    display: flex;
+  }
+
+  .leftPanel {
+    display: flex;
+    width: auto;
+  }
+
+  .dropzone {
+    border: thin dashed white;
+    float: left;
+    width: 19.77%;
+  }
+
+  .musicBoard {
+    background-color: #E8EACD;
+    border: #C5C4AB solid 3px;
+    border-radius: 25px;
+    color: inherit;
+  }
+
+  .musicPieces {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: auto;
+  }
+
+  .avPieces
+  {
+    margin: 10px;
+    padding: 0;
+  }
+  .avPieces img
+  {
+    width: 100%;
+  }
 }
