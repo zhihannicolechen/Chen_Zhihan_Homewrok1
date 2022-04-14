@@ -1,7 +1,7 @@
 ![Untitled-1](https://user-images.githubusercontent.com/90261613/153732398-6556dfd4-f3f6-46e3-b537-97998c0e8cb7.jpg)
 
 # Avocado Music Mixer - Experience music and have some fun with acocado!
-This is an Avocado Music Mixer, compose your own tunes by dragging the avocado pit with the icon onto the table. Try different combinations to experience different feelings!
+This is an Avocado Music Mixer, compose your own tunes by dragging the avocados into the zone . Try different combinations to experience different feelings!
 
 
 ## Installation

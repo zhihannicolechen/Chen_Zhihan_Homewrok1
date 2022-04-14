@@ -11,12 +11,12 @@
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
 
-  
+
 </head>
 <body>
   <h1 class="hidden">Avocado Music Mixer</h1>
   <!--content-->
-  <main>
+  <main class="main">
 
     <header class="header">
       <h2>Avocado Music Mixer</h2>
@@ -29,26 +29,23 @@
 
       <!-- Side Panels don't show up in Mozilla Firefox for some reason. We are working on that. They are seen in Chrome and Brave. -->
       <div class="leftPanel">
-        <img src="images/leftSide.svg" alt="left side">
+        <img src="images/leftSide.gif" alt="left side">
       </div>
 
       <div class="musicBoard">
-        <div class="dropzone left"></div>
-        <div class="dropzone"></div>
-        <div class="dropzone"></div>
-        <div class="dropzone"></div>
+        <div class="dropzone drop1 left"></div>
+        <div class="dropzone drop2"></div>
+        <div class="dropzone drop3"></div>
+        <div class="dropzone drop4"></div>
         <div class="dropzone right"></div>
       </div>
       <div class="rightPanel">
-        <img src="images/rightSide.svg" alt="right side">
+        <img src="images/rightSide.gif" alt="right side">
       </div>
 
     </section>
 
     <section class="musicButtons">
-    <div id="play-pause" class="buttons pause">
-      <img src="images/stop.svg" alt="play-pause">
-    </div>
     <div class="buttons reset">
        <img src="images/delete.svg" alt="delete">
     </div>
@@ -61,9 +58,9 @@
         <img id="avocado3" draggable="true" class="sound" src="images/avocado_3.svg" alt="avocado">
         <img id="avocado4" draggable="true" class="sound" src="images/avocado_4.svg" alt="avocado">
         <img id="avocado5" draggable="true" class="sound" src="images/avocado_5.svg" alt="avocado">
-        <img id="avocado6" draggable="true" class="sound" src="images/avocado_6fixBlack.png" alt="avocado">
+        <img id="avocado6" draggable="true" class="sound" src="images/avocado_6.svg" alt="avocado">
         <img id="avocado7" draggable="true" class="sound" src="images/avocado_7.svg" alt="avocado">
-        <img id="avocado8" draggable="true" class="sound" src="images/avocado_8fixBlack.png" alt="avocado">
+        <img id="avocado8" draggable="true" class="sound" src="images/avocado_8.svg" alt="avocado">
     </div>
 
     <audio id="a_avocado1" loop src="audios/avocado1.wav"></audio>

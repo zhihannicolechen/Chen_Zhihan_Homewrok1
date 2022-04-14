@@ -5,7 +5,6 @@
     let soundPieces = document.querySelectorAll(".musicPieces img"),
         dropZone = document.querySelectorAll(".dropzone"),
         resetBtn = document.querySelector(".reset img"),
-        playPause = document.querySelector("#play-pause img"),
         dragBoard = document.querySelector(".musicPieces");
 
     function dragStarted(event) {
@@ -53,15 +52,6 @@
         document.getElementById(`a_${id}`).play();
     }
 
-    function pauseMusic() {
-        array.forEach(item => {
-            let player = document.getElementById(item);
-            player.pause();
-        })
-        playPause.src = `images/play.svg`
-    }
-
-
 
     function resetAll() {
 
@@ -84,8 +74,6 @@
 
     soundPieces.forEach(piece => piece.addEventListener("dragstart", dragStarted));
 
-    
-
     resetBtn.addEventListener("click", resetAll);
 
     dragBoard.addEventListener("dragover", allowDragOver);
@@ -97,7 +85,7 @@
         zone.addEventListener("drop", allowDrop);
     });
 
-    playPause.addEventListener("click", pauseMusic);
+
     //dropZone.addEventListener("dragover", allowDragOver, "drop", allowDrop)
 
 })();
