@@ -119,9 +119,19 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
   background-color: #fff59e;
   border: #ddab1f solid 3px;
   border-radius: 25px;
+}
+
+.musicPieces:hover img
+{
+  transform: scale(1.04);
+  transition: transform .7s;
+
+  border: #125C13 solid 1px;
+
 }
 
 .musicPieces:hover img
@@ -184,6 +194,7 @@ h2 {
     height: auto;
   }
 
+
 @media screen and (max-width: 964px) {
   .sound {
     width: 10%;
@@ -204,3 +215,4 @@ h2 {
 
 
 }
+
