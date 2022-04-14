@@ -16,7 +16,7 @@
 <body>
   <h1 class="hidden">Avocado Music Mixer</h1>
   <!--content-->
-  <main>
+  <main class="main">
 
     <header class="header">
       <h2>Avocado Music Mixer</h2>
@@ -33,10 +33,10 @@
       </div>
 
       <div class="musicBoard">
-        <div class="dropzone left"></div>
-        <div class="dropzone"></div>
-        <div class="dropzone"></div>
-        <div class="dropzone"></div>
+        <div class="dropzone drop1 left"></div>
+        <div class="dropzone drop2"></div>
+        <div class="dropzone drop3"></div>
+        <div class="dropzone drop4"></div>
         <div class="dropzone right"></div>
       </div>
       <div class="rightPanel">
@@ -46,9 +46,6 @@
     </section>
 
     <section class="musicButtons">
-    <div id="play-pause" class="buttons pause">
-      <img src="images/stop.svg" alt="play-pause">
-    </div>
     <div class="buttons reset">
        <img src="images/delete.svg" alt="delete">
     </div>
@@ -56,14 +53,16 @@
 
     <div class="musicPieces">
       <h2 class="hidden">Music Pieces</h2>
-        <div class="avPieces"><img id="avocado1" draggable="true" class="sound" src="images/avocado_1.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado2" draggable="true" class="sound" src="images/avocado_2.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado3" draggable="true" class="sound" src="images/avocado_3.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado4" draggable="true" class="sound" src="images/avocado_4.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado5" draggable="true" class="sound" src="images/avocado_5.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado6" draggable="true" class="sound" src="images/avocado_6.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado7" draggable="true" class="sound" src="images/avocado_7.svg" alt="avocado"></div>
-        <div class="avPieces"><img id="avocado8" draggable="true" class="sound" src="images/avocado_8.svg" alt="avocado"></div>
+
+        <img id="avocado1" draggable="true" class="sound" src="images/avocado_1.svg" alt="avocado">
+        <img id="avocado2" draggable="true" class="sound" src="images/avocado_2.svg" alt="avocado">
+        <img id="avocado3" draggable="true" class="sound" src="images/avocado_3.svg" alt="avocado">
+        <img id="avocado4" draggable="true" class="sound" src="images/avocado_4.svg" alt="avocado">
+        <img id="avocado5" draggable="true" class="sound" src="images/avocado_5.svg" alt="avocado">
+        <img id="avocado6" draggable="true" class="sound" src="images/avocado_6.svg" alt="avocado">
+        <img id="avocado7" draggable="true" class="sound" src="images/avocado_7.svg" alt="avocado">
+        <img id="avocado8" draggable="true" class="sound" src="images/avocado_8.svg" alt="avocado">
+
     </div>
 
     <audio id="a_avocado1" loop src="audios/avocado1.wav"></audio>

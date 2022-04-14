@@ -16,6 +16,7 @@ h2 {
   font-family: 'Rowdies', cursive;
 }
 
+
 .header {
   margin:0;
   padding: 0;
@@ -38,27 +39,21 @@ h2 {
 
 
 .sound {
-    width: 110px;
+    max-width: 110px;
     margin: 20px auto;
     display: block;
     color:inherit;
 }
 
-.musicBoard {
-  height: 300px;
-  width: 900px;
-  margin:120px auto 20px;
-  background-color: #E8EACD;
-  border: #C5C4AB solid 3px;
-  border-radius: 25px;
-  color: inherit;
-}
+
 
 .dropzone {
   border: thin dashed white;
   float: left;
   width: 19.77%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .gameBoards {
@@ -71,7 +66,7 @@ h2 {
 .musicBoard {
     height: 300px;
     width: 830px;
-    margin: 80px 0 10px 10px;
+    margin: 80px 10px 10px 10px;
     background-color: #e8eacd;
     border: #c5c4ab solid 3px;
     border-radius: 25px;
@@ -124,7 +119,19 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  background-color: #fff59e;
+  border: #ddab1f solid 3px;
+  border-radius: 25px;
+}
+
+.musicPieces:hover img
+{
+  transform: scale(1.04);
+  transition: transform .7s;
+
   border: #125C13 solid 1px;
+
 }
 
 .musicPieces:hover img
@@ -187,13 +194,25 @@ h2 {
     height: auto;
   }
 
-  .avPieces
-  {
-    margin: 10px;
-    padding: 0;
+
+@media screen and (max-width: 964px) {
+  .sound {
+    width: 10%;
   }
-  .avPieces img
-  {
-    width: 100%;
+
+  .musicBoard img {
+    width: 50%;
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .leftPanel, .rightPanel {
+    display: none;
+  }
+
+}
+
+
+}
+
